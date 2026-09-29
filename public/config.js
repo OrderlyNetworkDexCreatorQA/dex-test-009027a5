@@ -44,5 +44,5 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_SYMBOL_LIST": "",
   "VITE_RESTRICTED_REGIONS": "",
   "VITE_WHITELISTED_IPS": "",
-  "VITE_DEX_PLUGINS": "[]"
+  "VITE_DEX_PLUGINS": "[{\"pluginId\":\"tarnadas-near-intents-deposit\",\"npmName\":\"@tarnadas/near-intents-deposit\",\"version\":\"1.0.3\",\"config\":{}}]"
 };
