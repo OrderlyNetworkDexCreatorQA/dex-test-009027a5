@@ -1,9 +1,6 @@
 {
   "version": 1,
   "dependencies": {
-    "@orderly.network/plugin-core": "3.2.1",
-    "@orderly.network/ui-transfer": "3.2.1",
-    "@orderly.network/utils": "3.2.1",
     "@solana/spl-token": "0.3.11",
     "@solana/web3.js": "1.98.4",
     "@tarnadas/near-intents-deposit": "1.0.3"
