@@ -156,7 +156,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
-          node-version: "20"
+          # 24 to match local dev and satisfy the dependency tree that plugin
+          # installs pull in (e.g. commander@15 needs >=22.12 via wallet deps).
+          node-version: "24"
           cache: "yarn"
           cache-dependency-path: |
             yarn.lock

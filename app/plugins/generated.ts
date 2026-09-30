@@ -2,9 +2,6 @@
 
 import * as tarnadasNearIntentsDepositModule from "@tarnadas/near-intents-deposit";
 import "@tarnadas/near-intents-deposit/dist/styles.css";
-import * as tarnadasOrderbookShimmerPluginModule from "@tarnadas/orderbook-shimmer-plugin";
-import "@tarnadas/orderbook-shimmer-plugin/dist/styles.css";
 export const dexPlugins = [
   { pluginId: "tarnadas-near-intents-deposit", module: tarnadasNearIntentsDepositModule },
-  { pluginId: "tarnadas-orderbook-shimmer-plugin", module: tarnadasOrderbookShimmerPluginModule },
 ] as const;
